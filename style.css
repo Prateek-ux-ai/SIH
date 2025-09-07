@@ -1,0 +1,74 @@
+/* Reset & Base Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f9fc;
+  color: #333;
+}
+
+header {
+  background: #003366;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background: #eef3f8;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  margin-top: 20px;
+}
+
+footer {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+}
